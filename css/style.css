@@ -1,0 +1,488 @@
+/**
+ * =================================================================== 
+ *
+ *  ResumeTemplate v1.0 ClearCareer
+ *  url: clearcareer.ca
+ *  Design by: Iskender Piyale-Sheard
+ *  website: izzydoesizzy.com
+ *  Created 06-27-2016
+ *  Last Updated: 03-19-2017
+ *  ------------------------------------------------------------------
+ *  Table of Contents:
+
+ *  01. Global Styles
+ *  02. Intro
+ *  03. Social Icons
+ *  04. Icon Fonts
+ *  05. Section Styles
+ *  06. Timeline Styles
+ *  05. Footer
+ EXTRAS
+
+ * =================================================================== 
+ */
+
+/* 01. Basic Styles
+ * =================================================================== */
+
+ html {
+    overflow-x: hidden;
+ }
+ body {
+    font-family: 'Source Sans Pro', sans-serif;
+ }
+
+ h1 {
+    font-weight: bold;
+ }
+
+ h5 {
+    font-weight: 600;
+ }
+
+ a {
+    cursor: pointer;
+    color: #cb8112;
+    text-decoration: none;
+ }
+
+ a:hover {
+    text-decoration:none;
+    color: #cb8112;
+    opacity: 0.9;
+ }
+
+ hr {
+    border-top: 5px solid #cb8112;
+    width: 80px;
+    padding-bottom: 20px;
+ }
+
+
+ .colour-splash {
+    color: #cb8112;
+ }
+
+ .section-primary span {
+    color: #cb8112;
+    font-weight: bolder;
+    opacity: 1;
+ }
+
+
+
+
+
+
+
+
+/* 02. Intro
+ * =================================================================== */
+
+ .section-image {
+ 	background: #3d3d3d url(https://images.unsplash.com/photo-1512522156303-e02eda5e76e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    display:table;
+ }
+
+ .img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333333;
+    opacity: .7;
+ }
+
+ .intro {
+    vertical-align: middle;
+    text-align: center;
+    display:table-cell;
+    -webkit-transform: translateY(-2.1rem);
+    -ms-transform: translateY(-2.1rem);
+    transform: translateY(-2.1rem);
+}
+
+.intro .row {
+    margin-right: 0;
+    margin-left:0;
+}
+
+.intro h1 {
+    font-size: 84px;
+}
+
+.intro h5 {
+    color: #ea9929;
+    font-size: 4rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.section-image span {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    padding: 0 10px;
+    font-weight: 100;
+}
+
+.section-image h1 {
+    margin-top: 0;
+}
+
+.section-image p {
+    font-weight: lighter;
+    opacity: 0.9;
+}
+
+
+
+/* 03. Social Icons
+ * =================================================================== */
+
+.social {
+  margin: 0 12px;
+  padding-top: 1.3em;
+  text-align: center;
+  color: #fff;
+  font-size: 0.9em;
+}
+
+.social a {
+  color: white;
+  text-decoration:none;
+  padding: 2em;
+}
+
+.social a:hover{
+  opacity: 0.6;
+}
+
+.social-footer {
+    position: block;
+    padding: 15px;
+}
+
+.social-footer a {
+    color: white;
+    text-decoration: none;
+    padding: 0.6em;
+    font-size: 1.7em;
+}
+
+
+/* 04. Icon Font
+ * =================================================================== */
+
+ .lnr {
+    font-size: 4em !important;
+    color:#fff;
+ }
+
+/* 05. Section Styles
+ * =================================================================== */
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.profilepic {
+    height: 150px;
+    width: auto;
+    border-radius: 300px;
+}
+
+.section-primary p {
+    text-align: justify;
+}
+
+.section-primary {
+    border: #1abc9c;
+}
+
+.section-colour {
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+.section-colour p {
+    text-align: justify;
+}
+
+.section-heading .lead, .section-heading h2 {
+    text-align: center;
+}
+
+.section-colour {
+    border: #fff;
+}
+
+.section-colour hr {
+    border-top: 5px solid #fff;
+ }
+
+
+
+/* 01. Timeline Styles
+ * =================================================================== */
+
+.timeline-icon .fa {
+    color: white;
+    margin: 14px;
+    font-size: 1.7em;
+}
+
+#skills {
+    background: #151515 url(https://lh3.googleusercontent.com/W_0F2V6tA9SfiLmbTADrYPHfkJ48ny-zXrGGcFToOg0pH-x7k9Rkt9uXAbLn6XmrxiLKDrK0udkGXDLi6q_lJQsF13DSXsHq0ow2kkutTmdj6VW8lKvrA_offCsB6fhJ8u7UIPwSCQPkIlwEvi2YiYXbJjsRVXu1Ylc-V9cdmzbu_eMd_EfbQ7ePzACS22i9Dsi3kkaOT5G6uJV1elyDXth8mHJNSKN2L_b0k-8sOl3Yt2Dq_OpWX2FF3D9AZaL80VsFppdeRhJMu89_F-66G8cQGaGhL2F9DR6Lk2aj8K05gnnNdnkHAoZNyUnceytzsiEh7psQeUyY1lyy4nYJfPRbndgAdAXoTMKVXcLG36y1yrBh3xxlN7TV_Trn3JEkpiv-dhdpbZXHGFgSQpmEkShQtoRi82b-ttk_ABRjcWugYfApt-q_0HB5Qv03Dxl0Zyq9PmBRYDyoicsiJAfQRtqXulighRDfS0EuVEo9WsJxNW-TrmK5c_plkNoiJy4OgG6oNy2w3IJsXb2LTz8vweTkyNBdQ2Enj0tZBD7-lkSXuJjXXAYTS_1s-hpU3Q8bZFCaYYUtpVULff6T8CjDUx6N9egRKOs8Glp1pa48wYUnx6yrdlwY9Y8w1gRsWcazbN_5OJiTgkmRdGgWSg0sKPcDJqCTrNNV4OAiGzNmW-p7wSikIrLHx-xes-tuaXGtDceMj0BjSnFNs6ntvvwbzbiXVXmPGeRd9mr_Rw6xmeIJqFc-3e2CPgaNGRUMGh3pNykVAbC0sDbYiYxTs-pUFTtzfm2Dl62oB-Yt2goWTmWuWGEbGqC_Wc4Yl2UtXMWQ-vL_23eZxYX9Im5yoPQyDQRuW7wSXDacI9EW_VV861RqJPguXcimSTJGKAvcgiREJkRqeCydaBRc51hdtUHI7wslY7p9WVMamJrQmclwFbbhHPm6ZRmiCjr66RHp7gG6bY2-xtbHFKVBqpSrqEX5kKNmz-u69a17AdrHJgF8y1d4BCLxGI9DqtLBga3b8MqhfAtTQJ6DCYHQ5JzRB5naW98=w1920-h872-no?authuser=0) no-repeat center center;
+    height: auto;
+}
+
+
+/* 05. Footer
+ * =================================================================== */
+
+footer {
+    display: block;
+    position: static;
+    bottom: 0;
+    background-color: black;
+    color: #fff;
+    padding: 50px 0;
+
+}
+
+footer p {
+    padding: 15px;
+    opacity: 0.8;
+}
+
+
+/* EXTRAS
+ * =================================================================== */
+
+
+
+        /* Mouse Icon
+         * =================================================================== */
+        .mouse-icon {
+            border: 2px solid #fff;
+            border-radius: 16px;
+            display: block;
+            height: 50px;
+            margin: 100px auto;
+            position: absolute;
+            left: 0;
+            right: 0;
+            width: 30px;
+            z-index: 10;
+        }
+        .mouse-icon .scroll {
+            animation-delay: 0s;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-name: scrolling;
+            animation-play-state: running;
+            animation-timing-function: linear;
+        }
+        .mouse-icon .scroll {
+            background: #fff none repeat scroll 0 0;
+            border-radius: 10px;
+            height: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            top: 4px;
+            width: 4px;
+        }
+        @keyframes scrolling {
+        0% {
+            opacity: 0;
+            top: 5px;
+        }
+        30% {
+            opacity: 1;
+            top: 10px;
+        }
+        100% {
+            opacity: 0;
+            top: 25px;
+        }
+        }
+
+        .pad-xl {
+            padding: 200px 0px;
+        }
+
+        .pad-lg {
+            padding: 160px 0px;
+        }
+
+        .pad-sm {
+            padding: 80px 0px;
+        }
+
+        .pad-xs {
+            padding: 30px 0px;
+        }
+
+        /* /Mouse Icon
+         * =================================================================== */
+
+ 
+/* Media Queries
+ * =================================================================== */
+
+@media (max-width: 480px) {
+    .social a {
+        padding: 0.4em;
+        font-size: 0.9em;
+    }
+
+    .social-footer {
+        text-align: center;
+        position:block;
+        text-align: center;
+    }
+
+    .social-footer a {
+        padding: 0.3em;
+        font-size: 1.6em;
+
+    }
+
+    .intro-desc {
+        font-size: 0.7em;
+    }
+
+    .section-image span {
+        font-size: 1em;
+        padding: 0 1px;
+
+}
+
+    .intro h1 {
+        font-size: 50px;
+        padding-top: 15px;
+    }
+
+    footer {
+        text-align: center;
+        padding-bottom: 100px;
+    }
+
+    #skills {
+        background: #151515 url(https://images.unsplash.com/photo-1456983933114-c22026990f4b?dpr=2&auto=format&crop=entropy&fit=crop&w=1280&h=720&q=80) no-repeat center center;
+        background-position: top center;
+
+    }
+}
+
+@media (max-width: 991px) {
+    .social-footer {
+        text-align: center;
+    }
+
+    footer p {
+    text-align: center;
+    }
+
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 100%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
